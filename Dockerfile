@@ -38,6 +38,9 @@ RUN \
   apt-get install -y \
     gcc-$GCC_VERSION \
     g++-$GCC_VERSION \
+    curl \
+    wget \
+    openssl \
   && \
   apt-get autoremove && \
   rm -rf /var/lib/apt/lists/* && \
