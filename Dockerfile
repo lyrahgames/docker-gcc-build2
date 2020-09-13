@@ -41,8 +41,9 @@ RUN \
     curl \
     wget \
     openssl \
+    git \
   && \
-  apt-get autoremove && \
+  # apt-get autoremove && \
   rm -rf /var/lib/apt/lists/* && \
   # update-alternatives --remove-all gcc && \
   # update-alternatives --remove-all g++ && \
